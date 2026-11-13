@@ -121,8 +121,8 @@ Robots stay open, including AI crawlers. The canonical host is
 `https://paretile.com`.
 
 Responsible disclosure lives at `/.well-known/security.txt` (and a
-copy at `/security.txt`). There is no public email; the contact is
-the GitHub profile. No bounty program.
+copy at `/security.txt`). The contact is paretile@gmail.com. GitHub
+is a second contact. No bounty program.
 
 Use this design file when changing the site. Header: the gold
 wordmark on black. Hero: the C6-A avatar, then the tagline. Favicon

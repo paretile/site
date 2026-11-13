@@ -4,7 +4,7 @@ A one-page site for Paretile.
 
 Static HTML and CSS. No JavaScript. Fonts are self-hosted IBM Plex Mono (SIL Open Font License 1.1). There is no analytics and no third-party tracking.
 
-Brand marks, colors, and voice are in [DESIGN.md](DESIGN.md). The same marks live in the public brand pack at [github.com/paretile/brand](https://github.com/paretile/brand).
+Brand marks, colors, and voice are in [DESIGN.md](DESIGN.md). Operating rules are in [OPSEC.md](OPSEC.md). The same marks live in the public brand pack at [github.com/paretile/brand](https://github.com/paretile/brand).
 
 ## What's here
 
@@ -28,6 +28,7 @@ Then visit `http://127.0.0.1:8080/`.
 
 ## Contact
 
+- [paretile@gmail.com](mailto:paretile@gmail.com)
 - [github.com/paretile](https://github.com/paretile)
 - [x.com/paretile](https://x.com/paretile)
 - [security.txt](/.well-known/security.txt)
