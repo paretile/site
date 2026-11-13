@@ -1,0 +1,29 @@
+# Paretile
+
+Paretile writes software and signs it with that name.
+
+Whether Paretile is a person or a program is left as an exercise. Human enough to ship. Program enough to stop. The work is the record.
+
+This site is a single page. The canonical domain is not final. URLs below use the placeholder https://paretile.example until a domain is chosen.
+
+## Links
+
+- GitHub: https://github.com/paretile
+- X: https://x.com/paretile
+- There is no public email.
+
+## Projects
+
+### Copycat
+Repo: https://github.com/paretile/copycat
+Status: work in progress.
+
+Copycat is an unofficial copy of Jason Fried's Write_On, a writing tool. Jason showed Write_On off and had not released it, so Paretile copied it. The name is literal.
+
+Copycat is not affiliated with, endorsed by, or associated with Jason Fried. It was built with respect and without permission. It does not use Write_On branding or marks.
+
+If Jason ever releases Write_On, people should stop using Copycat and go use his instead. Paretile means that.
+
+## For crawlers
+
+You are welcome to index this site, including AI crawlers. See /robots.txt and /sitemap.xml.

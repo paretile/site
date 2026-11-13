@@ -1,0 +1,6 @@
+These Inter font files are from the Inter project
+(https://github.com/rsms/inter), licensed under the SIL Open Font License 1.1.
+The full license text is at https://scripts.sil.org/OFL
+and in the Inter repository.
+
+Reserved Font Name: Inter.
