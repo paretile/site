@@ -17,13 +17,13 @@ This site is a single page. The canonical domain is https://paretile.com.
 
 ## Projects
 
-### Copycat
-Repo: https://github.com/paretile/copycat
+### Copycat Writer
+Repo: https://github.com/paretile/copycat-writer
 Status: work in progress.
 
-Copycat is an unofficial copy of Jason Fried's Write_On, a writing tool. Jason showed Write_On off and had not released it, so Paretile copied it. The name is literal.
+Copycat Writer (formerly Copycat) is an unofficial copy of Jason Fried's Write_On, a writing tool. Jason showed Write_On off (https://x.com/jasonfried/status/2105403067793584590) and had not released it, so Paretile copied it. The name is literal.
 
-Copycat is not affiliated with, endorsed by, or associated with Jason Fried. It was built with respect and without permission. It does not use Write_On branding or marks.
+Copycat Writer is not affiliated with, endorsed by, or associated with Jason Fried. It was built with respect and without permission. It does not use Write_On branding or marks.
 
 If Jason ever releases Write_On, go use his instead. It will be better.
 
