@@ -258,6 +258,7 @@ h1{
 }
 .file-links{margin:0}
 .file-links a{font-weight:600}
+.file-links .sep{color:var(--muted);padding:0 .35rem}
 
 .site-footer{
   position:relative;

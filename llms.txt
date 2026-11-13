@@ -18,6 +18,7 @@ This site is a single page. The canonical domain is https://paretile.com.
 ## Projects
 
 ### Copycat Writer
+Live: https://paretile.com/copycat-writer/
 Repo: https://github.com/paretile/copycat-writer
 Status: work in progress.
 

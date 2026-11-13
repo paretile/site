@@ -9,6 +9,7 @@ Brand marks, colors, and voice are in [DESIGN.md](DESIGN.md). Operating rules ar
 ## What's here
 
 - `/` — the whole site
+- `/copycat-writer/` — Copycat Writer, the writing app
 - `/404.html` — a short lost page
 - `/llms.txt` — a plain-text brief for language models
 - `/.well-known/security.txt` — how to report a hole (copy at `/security.txt`)
