@@ -7,6 +7,7 @@
 <meta name="description" content="This page isn’t a page. A developer, pending further review.">
 <meta name="author" content="Paretile">
 <meta name="robots" content="noindex">
+<meta name="color-scheme" content="dark">
 <meta property="og:title" content="Page not found · Paretile">
 <meta property="og:description" content="This page isn’t a page. A developer, pending further review.">
 <meta property="og:url" content="https://paretile.example/404.html">
@@ -28,9 +29,9 @@
 <link rel="icon" href="/img/favicon-16.png" sizes="16x16" type="image/png">
 <link rel="apple-touch-icon" sizes="180x180" href="/img/apple-touch.png">
 <link rel="manifest" href="/site.webmanifest">
-<meta name="theme-color" content="#25221E">
-<link rel="preload" href="/fonts/inter-700.woff2" as="font" type="font/woff2" crossorigin>
-<link rel="preload" href="/fonts/inter-600.woff2" as="font" type="font/woff2" crossorigin>
+<meta name="theme-color" content="#101018">
+<link rel="preload" href="/fonts/ibm-plex-mono-400.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="/fonts/ibm-plex-mono-600.woff2" as="font" type="font/woff2" crossorigin>
 <link rel="stylesheet" href="/css/main.css">
 <link rel="alternate" type="text/plain" href="/llms.txt" title="Plain-text brief for language models">
 <script type="application/ld+json">
@@ -52,17 +53,18 @@
     <a href="https://github.com/paretile" rel="me">GitHub</a>
   </nav>
 </header>
-<main id="main" class="wrap lost">
-  <p class="doodle-row" aria-hidden="true"><img src="/img/avatar.png" alt="" width="72" height="72"></p>
+<main id="main" class="lost">
+  <img class="avatar avatar-sm" src="/img/avatar.png" width="1000" height="1000" alt="">
+  <p class="prompt" aria-hidden="true"><span class="prompt-hash">$</span> cd /that-page</p>
+  <p class="term-err" aria-hidden="true">cd: /that-page: No such file or directory</p>
   <h1>Lost.</h1>
   <p class="lede">A developer, pending further review.</p>
-  <p><a href="/">Back to the front</a></p>
+  <p class="file-links"><a href="/">Back to the front</a></p>
 </main>
-<footer class="site-footer"><div class="wrap footer-inner">
-  <a class="footer-brand" href="/"><img class="wordmark" src="/img/wordmark.png" width="1693" height="530" alt="Paretile"></a>
+<footer class="site-footer">
   <p class="footer-place">Possibly a person. Possibly a script.</p>
-  <p class="footer-links"><a href="https://x.com/paretile" rel="me">X</a><span class="sep" aria-hidden="true"> · </span><a href="https://github.com/paretile" rel="me">GitHub</a></p>
+  <p class="footer-links"><a href="https://x.com/paretile" rel="me">X</a><span class="sep" aria-hidden="true"> · </span><a href="https://github.com/paretile" rel="me">GitHub</a><span class="sep" aria-hidden="true"> · </span><a href="/.well-known/security.txt">security.txt</a></p>
   <p class="footer-copy">Puh-ray-tile, if you are saying it out loud. · © 2026 Paretile</p>
-</div></footer>
+</footer>
 </body>
 </html>

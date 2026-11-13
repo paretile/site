@@ -7,22 +7,25 @@ in this file, keep it simple and keep it consistent.
 
 | Name | Hex | Use |
 | --- | --- | --- |
-| Gold | `#D4A017` | Wordmark fill, avatar field, the brand gold |
-| Ink | `#1E1B18` | Body text, heavy rules |
-| Black | `#101018` | Wordmark outline, character outlines |
-| Paper | `#FEFDFC` | Page background |
-| Cream | `#FBF7F3` | Soft band behind the main column |
-| White | `#FFFFFF` | Cards, the plate behind the wordmark on gold |
-| Muted | `#6F6962` | Secondary text |
-| Line | `#E7E1DB` | Hairlines |
-| Hat red | `#E34432` | The tricorn, and the site accent / links |
+| Black | `#101018` | Page background, the terminal field |
+| Gold | `#D4A017` | Wordmark fill, avatar field, prompt, cursor, links, short highlights |
+| Cream | `#F4EFEA` | Primary text on black |
+| Muted | `#9A948C` | Secondary text, comments, prompt chrome |
+| Line | `#2A2A36` | Hairlines on black |
+| Hat red | `#E34432` | The tricorn, and tight accents (status, 404 errors, hover sparingly) |
+| Ink | `#1E1B18` | Character and wordmark interiors; not the page field |
+| Paper | `#FEFDFC` | The plate behind the wordmark on the Open Graph image |
+| White | `#FFFFFF` | Reserved for plates on gold; not a page color here |
 | Beak | `#F2A134` | Character only; not a brand color for UI |
 
 Do not substitute a lemon yellow for the gold. The older lemon
 (`#F2C230`, `#FDBC29`) is retired. Gold is `#D4A017`.
 
-On a gold field, the gold wordmark fill disappears. Put the wordmark
-on paper or white, or do not put it on gold.
+The site is an amber terminal: gold phosphor on black, not Matrix
+green, and not a light paper page. On a gold field, the gold wordmark
+fill disappears. Put the wordmark on paper, white, or black — never
+on gold. On black, use the gold-and-black wordmark file as it is;
+do not re-outline it in gold or white.
 
 ## Wordmark
 
@@ -31,17 +34,14 @@ thick uneven black outline. It is a drawing, not a typeface. Do not
 rebuild it in a font. Do not add a dot, a pirate, or a tagline to the
 mark.
 
-- File: `logo/wordmark.png` (transparent, tight). `logo/wordmark-2000.png`
-  is the 2000×2000 master on white. `logo/wordmark-padded.png` is the
-  transparent mark with more clear space.
+- File: `img/wordmark.png` on this site (from the brand pack’s
+  `logo/wordmark.png`).
 - Clear space: at least the height of the outline on every side.
 - Minimum size: about 120px wide, or 28px tall. Below that the outline
   turns to mush.
-- On light backgrounds, use the gold-and-black mark as it is. On dark
-  backgrounds, use the same file; do not outline it in gold or white.
 - Do not stretch, outline, recolor, or add a drop shadow.
-- Do not set the name in Inter (or any other typeface) and call it the
-  logo.
+- Do not set the name in IBM Plex Mono (or any other typeface) and
+  call it the logo.
 
 ## Avatar
 
@@ -51,47 +51,47 @@ black head, and a cream belly. The field is gold `#D4A017`. Outlines
 are thick, few, and flat. The mood is folk-pop mural, not a cute
 mascot. No blush, no wink, no smile, no skull, no bandana.
 
-This is the C6-A mark. It is the only approved avatar.
+This is the C6-A mark. It is the only approved avatar. On the home
+page it sits large, on the black field, near the top of the main
+column. Do not hide it in a favicon-only role.
 
-- Master: `avatar/avatar-1000.png` (1000×1000).
-- X profile: `avatar/x-400.png` (400×400).
-- GitHub profile: `avatar/github-460.png` (460×460).
-- `avatar/avatar-on-transparent.png` is the same character with the
-  gold field removed, for sitting the penguin on a gold surface (the
-  Open Graph image does this).
-- Minimum size: about 32px. At 32px the hat, beak, and a hint of the
-  patch still read. At 16px it becomes a red hat on a white belly.
-  Prefer 32px or larger for favicons when you can; 16px is a last
-  resort, not the design target.
+- File: `img/avatar.png` on this site (from the brand pack’s
+  `avatar/avatar-1000.png`).
+- Minimum size: about 32px. Prefer much larger on the home page.
 - Do not crop the hat, flip the patch, add a circle that clips the
   brim, or redraw it “friendlier.”
 - Do not place the gold-field square on a gold background (the square
-  vanishes). Use the transparent cutout, or a different field.
+  vanishes).
 
 ## Favicons and social
 
-- Favicon PNG: 16, 32, 48 in `favicon/`.
-- `favicon/favicon.ico` contains those three sizes.
-- Apple touch: `favicon/apple-touch-180.png` (180×180).
-- App icons: `favicon/icon-192.png`, `favicon/icon-512.png`.
-- Open Graph: `social/og-1200x630.png` — gold field, the penguin, and
-  the wordmark on a paper plate. 1200×630.
+- Favicon PNG: 16, 32, 48 in `img/`.
+- `img/favicon.ico` contains those three sizes.
+- Apple touch: `img/apple-touch.png` (180×180).
+- App icons: `img/icon-192.png`, `img/icon-512.png`.
+- Open Graph: `img/og.png` — gold field, the penguin, and the
+  wordmark on a paper plate. 1200×630.
 
-Use these files as they are. Do not regenerate a “sharper” 16px icon
-by oversharpening the master.
+Use these files as they are.
 
 ## Typography (the site)
 
-UI type is Inter, 600 and 700, self-hosted. Body sits on paper, ink
-for text, muted for secondary lines. The tagline is large, tight,
-slightly tight tracking, and gets the first look. The wordmark in the
-header is the PNG, not Inter.
+UI type is IBM Plex Mono, 400 and 600, self-hosted, ligatures off.
+This is the terminal voice: left-aligned, sharp, no soft shadows, no
+rounded cards. The tagline is large, slightly tight tracking, and
+gets the first look after the avatar. The wordmark in the header is
+the PNG, not the mono typeface.
+
+A prompt line, a blinking gold block cursor, and a faint static
+scanline are the only “hacker” ornaments. Do not add rain, glyphs,
+or green phosphor.
 
 ## Voice
 
 Terse, slightly edgy, a developer who would rather ship than explain.
 Short sentences. No mission statement. No biography. The work is the
-record.
+record. The posture is ethical-hacker: copy in public, disclose in
+public, send the patch.
 
 House lines, keep them as they are:
 
@@ -101,8 +101,12 @@ House lines, keep them as they are:
 - “Human enough to ship. Program enough to stop.”
 - “Puh-ray-tile, if you are saying it out loud.”
 
+Theme line for the home page, keep it as it is:
+
+- “We pirate software. We also send the patch.”
+
 Do not add an About page, a résumé, or a real-world identity. The
-public name is Paretile. Links are X and GitHub only.
+public name is Paretile. Links are X, GitHub, and `security.txt`.
 
 ## Site rules
 
@@ -111,10 +115,15 @@ Robots stay open, including AI crawlers. Canonical URLs currently use
 the placeholder `https://paretile.example` until a real domain is
 chosen.
 
+Responsible disclosure lives at `/.well-known/security.txt` (and a
+copy at `/security.txt`). There is no public email; the contact is
+the GitHub profile. No bounty program.
+
 Use this design file when changing the site. Header: the gold
-wordmark. Favicon and Open Graph: the C6-A avatar and the social
-image above. Accent and links may use hat red; gold is for the marks
-and for small highlights, not for long runs of text.
+wordmark on black. Hero: the C6-A avatar, then the tagline. Favicon
+and Open Graph: the C6-A avatar and the social image above. Gold is
+for the marks, the prompt, the cursor, and short links — not for
+long runs of text.
 
 ## Don'ts
 
@@ -126,3 +135,5 @@ and for small highlights, not for long runs of text.
   provided Open Graph image.
 - Don’t add a slogan, a year, or “LLC” to the marks.
 - Don’t use these marks for a different project or a different name.
+- Don’t switch the phosphor to green, or go back to a light paper
+  page, without a deliberate redesign.

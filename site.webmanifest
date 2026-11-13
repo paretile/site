@@ -4,8 +4,8 @@
   "description": "Paretile writes software. Declines to confirm the rest.",
   "start_url": "/",
   "display": "standalone",
-  "background_color": "#FEFDFC",
-  "theme_color": "#25221E",
+  "background_color": "#101018",
+  "theme_color": "#101018",
   "icons": [
     {
       "src": "/img/icon-192.png",

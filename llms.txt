@@ -4,12 +4,15 @@ Paretile writes software and signs it with that name.
 
 Whether Paretile is a person or a program is left as an exercise. Human enough to ship. Program enough to stop. The work is the record.
 
+We pirate software. We also send the patch. If you find a hole, see /.well-known/security.txt. There is no public email and no bounty program. The contact is GitHub.
+
 This site is a single page. The canonical domain is not final. URLs below use the placeholder https://paretile.example until a domain is chosen.
 
 ## Links
 
 - GitHub: https://github.com/paretile
 - X: https://x.com/paretile
+- security.txt: https://paretile.example/.well-known/security.txt
 - There is no public email.
 
 ## Projects
