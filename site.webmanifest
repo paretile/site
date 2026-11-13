@@ -1,7 +1,7 @@
 {
   "name": "Paretile",
   "short_name": "Paretile",
-  "description": "Paretile writes software. Declines to confirm the rest.",
+  "description": "Paretile writes software and declines to confirm the rest.",
   "start_url": "/",
   "display": "standalone",
   "background_color": "#101018",

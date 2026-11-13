@@ -1,7 +1,7 @@
-# Paretile. We look. If you looked first, tell us.
+# Paretile. I look. If you looked first, tell me.
 # No bounty program. No drama. Just the fix.
 
 Contact: https://github.com/paretile
 Expires: 2027-11-13T00:00:00.000Z
 Preferred-Languages: en
-Canonical: https://paretile.example/.well-known/security.txt
+Canonical: https://paretile.com/.well-known/security.txt

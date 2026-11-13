@@ -82,20 +82,26 @@ rounded cards. The tagline is large, slightly tight tracking, and
 gets the first look after the avatar. The wordmark in the header is
 the PNG, not the mono typeface.
 
-A prompt line, a blinking gold block cursor, and a faint static
-scanline are the only “hacker” ornaments. Do not add rain, glyphs,
-or green phosphor.
+A prompt line, a one-time `whoami` typing animation, a blinking
+gold block cursor, a faint static scanline and grain, and a soft gold
+glow behind the avatar are the only “hacker” ornaments. Do not add
+rain, glyphs, or green phosphor. Honor `prefers-reduced-motion`: skip
+the typing and entrance motion, keep the cursor solid. The scanline
+layer must cover the full document height, with no seam at the fold.
+
+The footer carries the pronunciation line only. Do not add a
+copyright notice.
 
 ## Voice
 
 Terse, slightly edgy, a developer who would rather ship than explain.
 Short sentences. No mission statement. No biography. The work is the
 record. The posture is ethical-hacker: copy in public, disclose in
-public, send the patch.
+public, send the patch. Speak in the first person: I, not we.
 
 House lines, keep them as they are:
 
-- “Writes software. Declines to confirm the rest.”
+- “Writes software and declines to confirm the rest.”
 - “A developer, pending further review.”
 - “Possibly a person. Possibly a script.”
 - “Human enough to ship. Program enough to stop.”
@@ -103,7 +109,7 @@ House lines, keep them as they are:
 
 Theme line for the home page, keep it as it is:
 
-- “We pirate software. We also send the patch.”
+- “I steal. I open. I patch.”
 
 Do not add an About page, a résumé, or a real-world identity. The
 public name is Paretile. Links are X, GitHub, and `security.txt`.
@@ -111,9 +117,8 @@ public name is Paretile. Links are X, GitHub, and `security.txt`.
 ## Site rules
 
 The public site is one short static page. No JavaScript. No analytics.
-Robots stay open, including AI crawlers. Canonical URLs currently use
-the placeholder `https://paretile.example` until a real domain is
-chosen.
+Robots stay open, including AI crawlers. The canonical host is
+`https://paretile.com`.
 
 Responsible disclosure lives at `/.well-known/security.txt` (and a
 copy at `/security.txt`). There is no public email; the contact is

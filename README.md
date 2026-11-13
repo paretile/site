@@ -16,7 +16,7 @@ Brand marks, colors, and voice are in [DESIGN.md](DESIGN.md). The same marks liv
 
 ## Domain
 
-Canonical URLs, Open Graph tags, JSON-LD, and the sitemap currently use the placeholder `https://paretile.example`. Swap that host when a real domain is chosen. Update the `Canonical` and `Expires` fields in `security.txt` at the same time.
+The canonical host is [paretile.com](https://paretile.com). Canonical URLs, Open Graph tags, JSON-LD, `security.txt`, robots, and the sitemap all use `https://paretile.com`.
 
 ## Local preview
 

@@ -1,18 +1,18 @@
 # Paretile
 
-Paretile writes software and signs it with that name.
+Paretile writes software and declines to confirm the rest.
 
 Whether Paretile is a person or a program is left as an exercise. Human enough to ship. Program enough to stop. The work is the record.
 
-We pirate software. We also send the patch. If you find a hole, see /.well-known/security.txt. There is no public email and no bounty program. The contact is GitHub.
+I steal. I open. I patch. If you find a hole, see /.well-known/security.txt. There is no public email and no bounty program. The contact is GitHub.
 
-This site is a single page. The canonical domain is not final. URLs below use the placeholder https://paretile.example until a domain is chosen.
+This site is a single page. The canonical domain is https://paretile.com.
 
 ## Links
 
 - GitHub: https://github.com/paretile
 - X: https://x.com/paretile
-- security.txt: https://paretile.example/.well-known/security.txt
+- security.txt: https://paretile.com/.well-known/security.txt
 - There is no public email.
 
 ## Projects
@@ -25,7 +25,7 @@ Copycat is an unofficial copy of Jason Fried's Write_On, a writing tool. Jason s
 
 Copycat is not affiliated with, endorsed by, or associated with Jason Fried. It was built with respect and without permission. It does not use Write_On branding or marks.
 
-If Jason ever releases Write_On, people should stop using Copycat and go use his instead. Paretile means that.
+If Jason ever releases Write_On, go use his instead. It will be better.
 
 ## For crawlers
 
